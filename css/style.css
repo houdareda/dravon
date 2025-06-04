@@ -242,8 +242,14 @@ html {
   background: #000;
   width: max-content;
   margin: 0px auto 10px;
-  padding: 0 10px 10px;
+  padding: 2px 10px 8px;
   line-height: 0.8;
+
+  text-shadow:
+    -1px -1px 0 #232323,
+     1px -1px 0 #232323,
+    -1px  1px 0 #232323,
+     1px  1px 0 #232323;
 }
 
 .how_work .btm_work .p_border {
