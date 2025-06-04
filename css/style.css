@@ -291,7 +291,7 @@ html {
 }
 
 .last_sec {
-  background: #000;
+  background: #131112;
 }
 
 .last_sec .div_pc {
@@ -339,7 +339,7 @@ html {
 }
 
 .last_sec .div_form form {
-  background: #4d4e4f;
+  background: #505050;
   box-shadow: 5px 5px 8px #00000027;
   text-align: center;
   width: 95%;
