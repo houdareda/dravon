@@ -66,8 +66,8 @@ html {
   width: 60%;
   margin: 0 auto;
 }
-.image_btn img{
-    display: block;
+.image_btn img {
+  display: block;
 }
 
 .hero {
@@ -108,7 +108,7 @@ html {
   text-align: center;
 }
 .result h3 {
-  background: #232323;
+  background: #232323;  
   color: #fff;
   font-size: 5.5vw;
 }
@@ -119,38 +119,35 @@ html {
   padding-bottom: 3px;
 }
 .result .content_result {
-  background: url(../images/bg-result.jpg);
+  background: url(../images/bg-result.webp);
   background-size: cover;
   background-position: top;
   padding-top: 10px;
 }
-.result .image_btn{
-    width: 65%;
+.result .image_btn {
+  width: 65%;
 }
-
-
-
 
 /* doctor */
 
 .doctor {
-  background: url(../images/bg-doctor.jpg) top center/cover;
+  background: url(../images/bg-doctor.webp) top center/cover;
   padding-top: 60vw;
 }
-.doctor .center{
-    text-align: center;
+.doctor .center {
+  text-align: center;
 }
-.doctor .center h5{
-    font-size: 6vw;
-    line-height: 1.2;
+.doctor .center h5 {
+  font-size: 6vw;
+  line-height: 1.2;
 }
-.doctor .center h4{
-    color: #CC2A27;
-    font-size: 10vw;
-    line-height: 1.2;
-    margin-bottom: 4px;
+.doctor .center h4 {
+  color: #cc2a27;
+  font-size: 10vw;
+  line-height: 1.2;
+  margin-bottom: 4px;
 }
-.doctor .center h3{
+.doctor .center h3 {
   background: linear-gradient(#b02a2b, #811817);
   width: max-content;
   margin: 0 auto;
@@ -160,66 +157,55 @@ html {
   color: #fff;
   margin-bottom: 10px;
 }
-.doctor .btm_doctor{
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
+.doctor .btm_doctor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
 }
-.doctor .btm_doctor::after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1px;
-    height: 80px;
-    background: #b02a2b;
+.doctor .btm_doctor::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 80px;
+  background: #b02a2b;
 }
-.doctor .btm_doctor::before{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 1px;
-    width: 80px;
-    background: #232323;
+.doctor .btm_doctor::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 80px;
+  background: #232323;
 }
-.doctor .btm_doctor p{
-    color: #fff;
-    width: 40%;
-    text-align: center;
-    padding: 2px 6px;
-    font-size: 3.3vw;
-    border-radius: 8px;
-    line-height: 1.4;
-
+.doctor .btm_doctor p {
+  color: #fff;
+  width: 40%;
+  text-align: center;
+  padding: 2px 6px;
+  font-size: 3.3vw;
+  border-radius: 8px;
+  line-height: 1.4;
 }
-.doctor .btm_doctor p.red{
-      background: linear-gradient(#b02a2b, #811817);
+.doctor .btm_doctor p.red {
+  background: linear-gradient(#b02a2b, #811817);
 }
-.doctor .btm_doctor p.black{
-    background: #232323;
+.doctor .btm_doctor p.black {
+  background: #232323;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* how_work */
 
 .how_work {
-  background: url(../images/bghowwork.jpg);
+  background: url(../images/bghowwork.webp);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -245,11 +231,8 @@ html {
   padding: 2px 10px 8px;
   line-height: 0.8;
 
-  text-shadow:
-    -1px -1px 0 #232323,
-     1px -1px 0 #232323,
-    -1px  1px 0 #232323,
-     1px  1px 0 #232323;
+  text-shadow: -1px -1px 0 #232323, 1px -1px 0 #232323, -1px 1px 0 #232323,
+    1px 1px 0 #232323;
 }
 
 .how_work .btm_work .p_border {
@@ -439,10 +422,6 @@ html {
     margin: 0 auto;
   }
 
-  .hero ul img {
-    width: 73%;
-    margin-inline: auto;
-  }
 
   .hero ul li {
     font-size: 24px;
@@ -450,14 +429,19 @@ html {
     padding: 3px 12px;
   }
 
-  .hero .image_btn,
+
   .hero ul li,
   .last_sec .div_form form {
     width: 70%;
   }
-
   .image_btn,
-  .last_sec .div_form .flex_price .img_productt {
+  .how_work .image_btn,
+  .result .image_btn,
+    .hero .image_btn{
+      width: 350px;
+    }
+
+    .last_sec .div_form .flex_price .img_productt {
     width: 250px;
   }
 
@@ -471,8 +455,20 @@ html {
   .last_sec .delv_text p {
     font-size: 35px;
   }
+  .how_work .howworkImg{
+    width: 80%;
+  }
+  .how_work .top_Sec h5{
+    font-size: 4.5vw;
+  }
+  .doctor .center h4{
+    font-size: 8vw;
+  }
+  .result .content_result .img_text{
+    width: 80%;
+    margin: 0 auto;
+  }
 
-  .how_work .top_Sec img,
   .last_sec .div_form form input,
   .last_sec .footer .boxs {
     width: 80%;
@@ -527,6 +523,13 @@ html {
 }
 
 @media (min-width: 1000px) {
+
+  .image_btn,
+  .how_work .image_btn,
+  .result .image_btn,
+    .hero .image_btn{
+      width: 250px;
+    }
   .last_sec .div_form form input {
     margin-bottom: 25px;
   }
@@ -536,17 +539,54 @@ html {
   }
 
   .hero,
+  .result,
+  .doctor,
   .how_work,
   .last_sec .div_pc {
     width: 50%;
   }
+  .result h3{
+    font-size: 40px;
+  }
+  .result h4{
+    font-size: 30px;
+  }
+  .result .content_result .img_text{
+    width: 100%;
+    margin: 35px 0;
+  }
+.how_work .top_Sec .logo{
+  width: 200px;
+}
+.how_work .top_Sec h5{
+  font-size: 35px;
+  margin-top: 5px;
+}
+.doctor{
+  padding-top: 38%;
+}
 
+.doctor .center h5{
+  font-size: 40px;
+}
+.doctor .center h4{
+  font-size: 45px;
+}
+.doctor .center h3{
+  font-size: 25px;
+}
+.doctor .btm_doctor p{
+  font-size: 18px;
+}
   .footer,
   .last_sec {
     width: 100%;
   }
+  .hero ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-  .hero ul li,
   .last_sec .secret h3 {
     font-size: 20px;
   }
@@ -656,9 +696,15 @@ html {
 }
 
 @media (min-width: 1300px) {
+  .doctor{
+  padding-top: 33%;
+}
   .hero .top_image {
     width: 70%;
     margin: 0 auto;
+  }
+  .doctor .btm_doctor p{
+    font-size: 22px;
   }
 
   .hero ul li {
@@ -701,7 +747,7 @@ html {
 }
 
 body.thanks_page_page {
-  background: url(../img/thanks-.jpg) center/cover;
+  background: url(../images/thanks-2.webp) center/cover;
   min-height: 100vh;
 }
 
